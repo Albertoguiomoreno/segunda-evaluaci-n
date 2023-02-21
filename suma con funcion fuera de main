@@ -1,0 +1,20 @@
+#include<stdio.h>
+int devuelvesuma(int num1,int num2){
+	return(num1+num2);
+}
+int main(){
+	int num1;
+	int	num2;
+	int suma;
+	
+	printf("numero 1: ");
+	scanf("%d",&num1);
+	
+	printf("numero 2: ");
+	scanf("%d",&num2);
+	
+	suma=devuelvesuma(num1,num2);
+	printf("%d + %d = %d",num1,num2,suma);
+	
+	return 0;
+}
